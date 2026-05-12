@@ -11,13 +11,32 @@ body {
     background-color: #f5f8f8;
     color: #1f2933;
 }
+header h1 {
+    color: #c7317c;
+}
 
 header,footer {
-    background-color: #1b7256;
+    background-color: #391168;
     color: #ffffff;
     padding: 20px;
     text-align: center;
 }
+
+header nav ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+header nav ul li {
+    list-style: none;
+   
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: rgb(184, 187, 7);
+}
+
 main {
     flex-grow: 1;
     padding: 40px 0;
